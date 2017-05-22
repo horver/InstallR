@@ -1,5 +1,4 @@
-# InstallR
-[![Build Status](https://travis-ci.org/horver/InstallR.svg?branch=master)](https://travis-ci.org/horver/InstallR)
+# InstallR [![Build Status](https://travis-ci.org/horver/InstallR.svg?branch=master)](https://travis-ci.org/horver/InstallR)
 
 Installs libraries for an R script
 
@@ -21,20 +20,20 @@ install_github("horver/InstallR")
 ### Functions
 
 - Install and load from vector:
-This function installs and loads (if load TRUE) the libraries which are given by a c() vector.
+This function installs and loads (if `load` `TRUE`) the libraries which are given by a `c()` vector.
 ```r
 InstallLibs(c("RUnit", "caret"), load = TRUE)
 ```
 
 - Install and load from file:
-This function scans through an R script or scripts ( c("file1.R", "file2.R") ) then
+This function scans through an R script or scripts ( `c("file1.R", "file2.R")` ) then
 installs and loads (if load TRUE) the libraries.
 ```r
 InstallLibsScript("file.R", load = TRUE)
 ```
 
 - Install and load from YAML:
-Needed libraries are in a *.yml file. The structure should look like this:
+Needed libraries are in a `*.yml` file. The structure should look like this:
 
 ```yaml
 deps:

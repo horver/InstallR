@@ -3,7 +3,7 @@ print('Hello World!')
 
 require("caret")
 library(AICcmodavg)
-require(car)
+require(mgcv)
 
 
 print('From example')
