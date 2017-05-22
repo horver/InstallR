@@ -2,12 +2,14 @@ Package: InstallR
 Type: Package
 Title: Installs libraries for an R script
 Version: 0.1.0
-Author: Tamás Horváth
+Author: Tam?s Horv?th
 Maintainer: The package maintainer <tamasurfi@gmail.com>
 Description: Installs and loads the libraries for an R script.
     It use the source of the script, for the needed libraries.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: yaml
 Suggests: testthat
+RoxygenNote: 6.0.1
+URL: https://github.com/horver/InstallR

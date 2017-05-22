@@ -1,4 +1,4 @@
 library(testthat)
 library(InstallR)
 
-test_check("InstallR")
+#test_check("InstallR")
