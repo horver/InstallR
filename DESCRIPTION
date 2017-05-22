@@ -1,12 +1,13 @@
 Package: InstallR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Installs libraries for an R script
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Tamás Horváth
+Maintainer: The package maintainer <tamasurfi@gmail.com>
+Description: Installs and loads the libraries for an R script.
+    It use the source of the script, for the needed libraries.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports: yaml
+Suggests: testthat
