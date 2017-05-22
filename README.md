@@ -6,19 +6,19 @@ Installs libraries for an R script
 ## What is this?
 This little package can install and load libraries which are needed for any R script. It scan through the script file, then install the dependencies. Also you can define a yaml file, that contains the dependencies and the package will load/install them.
 
-## Why?
+### Why?
 I wrote this package for fun and learning purpose. But I hope, that it will may useful for somebody.
 
-# Usage
+## Usage
 
-## Installing
+### Installing
 
 ```r
 library(devtools)
 install_github("horver/InstallR")
 ```
 
-## Functions
+### Functions
 
 - Install and load from vector:
 This function installs and loads (if load TRUE) the libraries which are given by a c() vector.
@@ -43,7 +43,7 @@ deps:
   - caret
 load: true
 ```
-
+And usage of the function: 
 
 ```r
 InstallLibsYML("deps.yml", load = TRUE)
