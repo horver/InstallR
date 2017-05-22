@@ -1,4 +1,5 @@
 # InstallR
+[![Build Status](https://travis-ci.org/horver/InstallR.svg?branch=master)](https://travis-ci.org/horver/InstallR)
 Installs libraries for an R script
 
 ## What is this?
