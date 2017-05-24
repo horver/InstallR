@@ -3,8 +3,8 @@
 #' @param file YAML file path
 #' @return none
 #' @examples
-#' InstallLibsYML("deps.yml")
-InstallLibsYML <- function(file = "deps.yml") {
+#' #install_from_yml("deps.yml")
+install_from_yml <- function(file = "deps.yml") {
   libs <- yaml::yaml.load_file(file)
-  InstallLibs(libs$deps, libs$load)
+  install_from_list(libs$deps, libs$load)
 }

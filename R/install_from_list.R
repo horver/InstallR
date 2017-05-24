@@ -4,8 +4,8 @@
 #' @param load TRUE/FALSE
 #' @return none
 #' @examples
-#' InstallLibs(c("caret"), TRUE)
-InstallLibs <- function(libs, load = TRUE) {
+#' #install_from_list(c("caret"), TRUE)
+install_from_list <- function(libs, load = TRUE) {
   sapply(libs,
          function(lib) {
            if (!(lib %in% utils::installed.packages()[, 1]))
